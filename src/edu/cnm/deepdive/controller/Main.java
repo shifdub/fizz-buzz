@@ -12,6 +12,7 @@ public class Main {
     for (int i = 1; i <= upperLimit; i++) {
       System.out.printf("%d : %s%n", i, FizzBuzzString.format(Converter.convert(i)));
     }
+
   }
 
 }
